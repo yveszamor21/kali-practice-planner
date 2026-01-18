@@ -1,20 +1,110 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Kali Linux Practice Planner 🛡️
 
-# Run and deploy your AI Studio app
+> AI-powered 7-day beginner practice plan generator for Kali Linux, featuring daily objectives, recommended tools, and structured lab environments.
 
-This contains everything you need to run your app locally.
+## 📋 Overview
 
-View your app in AI Studio: https://ai.studio/apps/drive/1Z9N_9Pfr44iIr09w84aIg8WLhNX9U3G_
+This web application leverages Google's Gemini AI to generate personalized, structured 7-day practice plans for beginners learning Kali Linux and penetration testing. Each plan includes:
 
-## Run Locally
+- **Daily Objectives**: Clear learning goals for each day
+- **Tool Recommendations**: Specific Kali Linux tools to practice
+- **Lab Environments**: Suggested virtual labs and practice platforms
+- **Progressive Difficulty**: Builds from fundamentals to advanced topics
+- **Hands-on Focus**: Emphasizes practical skills over theory
 
-**Prerequisites:**  Node.js
+## 🚀 Features
 
+- **AI-Generated Plans**: Powered by Google Gemini for intelligent, contextual learning paths
+- **Interactive Interface**: Clean, user-friendly React-based UI
+- **Markdown Formatting**: Code blocks and structured formatting for easy reading
+- **Customizable**: Can be extended with additional prompts and features
+- **Responsive Design**: Works on desktop and mobile devices
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Tech Stack
+
+- **Frontend**: React + TypeScript
+- **Build Tool**: Vite
+- **AI Integration**: Google Gemini API
+- **Styling**: CSS with custom design
+- **Deployment**: Google AI Studio / Cloud Run
+
+## 📦 Installation
+
+### Prerequisites
+- Node.js (v18 or higher)
+- Google Gemini API Key
+
+### Setup
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/yveszamor21/kali-practice-planner.git
+cd kali-practice-planner
+```
+
+2. **Install dependencies**
+```bash
+npm install
+```
+
+3. **Configure API Key**
+Create a `.env.local` file in the root directory:
+```
+GEMINI_API_KEY=your_api_key_here
+```
+
+4. **Run the development server**
+```bash
+npm run dev
+```
+
+5. **Access the app**
+Open your browser to `http://localhost:5173`
+
+## 🎯 Use Cases
+
+- **Beginners**: Starting their cybersecurity journey with Kali Linux
+- **Students**: Studying for certifications (Security+, CEH, OSCP prep)
+- **Self-Learners**: Looking for structured practice guidance
+- **Educators**: Creating curriculum or lab assignments
+
+## 🔐 Cybersecurity Applications
+
+This tool demonstrates practical knowledge of:
+- Penetration testing workflows
+- Kali Linux tool ecosystem
+- Security assessment methodologies
+- Training environment design
+- AI integration in security tools
+
+## 📸 Screenshots
+
+*Coming soon*
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+- Report bugs
+- Suggest new features
+- Submit pull requests
+- Improve documentation
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+## 👤 Author
+
+**Yves Zamor**
+- GitHub: [@yveszamor21](https://github.com/yveszamor21)
+- Portfolio: [Coming soon]
+
+## 🙏 Acknowledgments
+
+- Built with [Google AI Studio](https://ai.google.dev/aistudio)
+- Powered by [Google Gemini API](https://ai.google.dev/)
+- Inspired by the cybersecurity learning community
+
+---
+
+*Disclaimer: This tool is for educational purposes only. Always practice ethical hacking in authorized environments.*
